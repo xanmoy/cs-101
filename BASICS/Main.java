@@ -1,4 +1,7 @@
-package BASIC;
+package BASICS;
+
+import java.util.*;
+
 class Pen {
     String color;
     String type; //ballpoint, gel, fountain 
