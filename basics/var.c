@@ -8,9 +8,21 @@ int main(){
     char grade = 'A'; // Character
     char name[] = "John"; // String or Array of characters
     // format specifier
-    printf("Your age is %d\n years old", age); // %d is used for int
-    printf("Your gpa is %f\n", gpa);           // %f is used for float
-    printf("Your grade is %c\n", grade); // %c used is for char
-    printf("Your name is %s\n", name);   // %s is used for strings
+
+    // %d is used for int
+    printf("Your age is %d\n years old\n", age); 
+    printf("%%d is used for int\n\n");
+
+    // %f is used for float
+    printf("Your gpa is %f\n", gpa);
+    printf("%%f is used for float\n\n");
+
+    // %c used is for char
+    printf("Your grade is %c\n", grade);
+    printf("%%c used is for char\n\n");
+
+    // %s is used for strings
+    printf("Your name is %s\n", name);
+    printf("%%s is used for strings\n");
     return 0;
 }
