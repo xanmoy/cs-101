@@ -1,2 +1,5 @@
 /EXAMPLEPACKAGE
 **.exe
+**.dll
+**.ocx
+**.out
